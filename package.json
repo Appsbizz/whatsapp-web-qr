@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-web-qr",
+  "version": "1.0.0",
+  "description": "Node.js server that logs WhatsApp Web QR code on start",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
